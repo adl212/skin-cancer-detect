@@ -15,4 +15,3 @@ def send_image():
     pred = predict_image()
     session['results'] = pred
     return redirect('/')
-app.run(host='0.0.0.0')
